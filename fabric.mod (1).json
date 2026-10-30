@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "falconclient",
+  "version": "${version}",
+  "name": "FalconClient",
+  "description": "Red-themed legit PvP client: toggleable HUD, playtime, ping and coordinate helper. No cheats, no server interaction.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.falcon.FalconClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
